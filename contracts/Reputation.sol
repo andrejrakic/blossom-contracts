@@ -47,6 +47,7 @@ contract Reputation is RMRKNestable {
         RMRKNestable(name, symbol)
     {
         // Custom optional: constructor logic
+        tokenCounter = 1;
     }
 
     // minting reputation NFT as nested NFT
